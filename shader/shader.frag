@@ -10,13 +10,15 @@ precision mediump float;
 // we need to declare it here too!
 varying vec2 vTexCoord;
 
+uniform vec2 resolution;
+uniform float time;
+uniform float mouse;
+
 void main() {
-    
-    // copy the vTexCoord
     // vTexCoord is a value that goes from 0.0 - 1.0 depending on the pixels location
     // we can use it to access every pixel on the screen
     vec2 coord = vTexCoord;
     
-    // x values for red, y values for green, both for blue
-    gl_FragColor = vec4(-coord.y, coord.x, (coord.x+coord.y), 1.0 );
+    // x values for red, y values for green
+    gl_FragColor = vec4(-coord.y, coord.x, sin(time) * sin(time), 1.0 );
 }
