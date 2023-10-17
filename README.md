@@ -1,14 +1,14 @@
-# p5_template
+# Shader template
 
-A template for starting a new local p5.js project.
+A template for starting a new pixel shader project that runs in the browser.
+
+After using the template, edit "shader/shader.frag"
 
 ## Reference
 
-- [p5.js Getting Started](https://p5js.org/get-started/)
-- [p5.js Reference](https://p5js.org/reference/)
-- [p5.js Coordinate System and Shapes](https://p5js.org/learn/coordinate-system-and-shapes.html)
-- [Khan Academy p5.js Documentation](https://www.khanacademy.org/computing/computer-programming/pjs-documentation)
-
+- [Introduction to p5.js shaders](https://itp-xstory.github.io/p5js-shaders/#/)
+- [The Book of Shaders](https://thebookofshaders.com/)
+- [Shadertoy](https://www.shadertoy.com/)
 ---
 
 Developed with 💖 by [**@acmcsufoss**](https://oss.acmcsuf.com/)
