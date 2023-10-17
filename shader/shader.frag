@@ -18,5 +18,5 @@ void main() {
     vec2 coord = vTexCoord;
     
     // x values for red, y values for green, both for blue
-    gl_FragColor = vec4(coord.x, coord.y, (coord.x+coord.y), 1.0 );
+    gl_FragColor = vec4(-coord.y, coord.x, (coord.x+coord.y), 1.0 );
 }
